@@ -28,3 +28,5 @@
 ```bash
 git clone https://github.com/your-username/Dotnet-CRUD-Auth-API.git
 cd Dotnet-CRUD-Auth-API
+
+![CRUD API Demo](asset/crud.gif)
