@@ -1,10 +1,12 @@
 using DotnetCrudAuthApi.Dtos;
 using DotnetCrudAuthApi.Models;
 using DotnetCrudAuthApi.Repostories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotnetCrudAuthApi.Controllers
 {
+    [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class PeopleController : ControllerBase
