@@ -22,7 +22,7 @@
 ---
 
 ## Demo
-LOGIN
+REGISTER & LOGIN
 ![LOGIN API Demo](Asset/auth.gif)
 TOKEN
 ![TOKEN API Demo](Asset/token.gif)
