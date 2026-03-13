@@ -63,7 +63,5 @@ namespace DotnetCrudAuthApi.Controllers
 
             return Ok(success);
         }
-
-
     }
 }
