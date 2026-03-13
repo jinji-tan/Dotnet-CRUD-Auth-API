@@ -14,10 +14,14 @@
 
 ## Tech Stack
 
-- **ASP.NET Core Web API**  
-- **C#**  
-- **JWT** for authentication  
+- **ASP.NET Core Web API** - **C#** - **JWT** for authentication  
 - **Dapper** for database access  
+
+---
+
+## Demo
+
+![CRUD API Demo](Asset/crud.gif)
 
 ---
 
@@ -26,7 +30,5 @@
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/Dotnet-CRUD-Auth-API.git
+git clone [https://github.com/your-username/Dotnet-CRUD-Auth-API.git](https://github.com/your-username/Dotnet-CRUD-Auth-API.git)
 cd Dotnet-CRUD-Auth-API
-
-![CRUD API Demo](Asset/crud.gif)
