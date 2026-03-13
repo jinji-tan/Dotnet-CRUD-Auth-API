@@ -30,11 +30,3 @@ CRUD
 ![CRUD API Demo](Asset/crud.gif)
 
 ---
-
-## Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone [https://github.com/your-username/Dotnet-CRUD-Auth-API.git](https://github.com/your-username/Dotnet-CRUD-Auth-API.git)
-cd Dotnet-CRUD-Auth-API
