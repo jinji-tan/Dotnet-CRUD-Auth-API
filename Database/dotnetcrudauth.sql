@@ -1,0 +1,33 @@
+CREATE DATABASE CrudDB
+GO
+
+USE CrudDB
+GO
+
+CREATE SCHEMA CrudSchema
+GO
+
+CREATE TABLE CrudSchema.People
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(100) NOT NULL,
+    LastName NVARCHAR(100) NOT NULL,
+    Age INT NOT NULL,
+    Gender NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE CrudSchema.Users
+(
+    UserId INT IDENTITY(1,1) PRIMARY KEY,
+    Email NVARCHAR(200) NOT NULL UNIQUE,
+    PasswordHash VARBINARY(MAX) NOT NULL,
+    PasswordSalt VARBINARY(MAX) NOT NULL
+)
+
+SELECT *
+FROM CrudSchema.People
+GO
+
+SELECT *
+FROM CrudSchema.Users
+GO
