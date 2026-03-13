@@ -14,13 +14,15 @@
 
 ## Tech Stack
 
-- **ASP.NET Core Web API** - **C#** - **JWT** for authentication  
+- **ASP.NET Core Web API** 
+- **C#** 
+- **JWT** for authentication  
 - **Dapper** for database access  
 
 ---
 
 ## Demo
-
+CRUD API Demo
 ![CRUD API Demo](Asset/crud.gif)
 
 ---
