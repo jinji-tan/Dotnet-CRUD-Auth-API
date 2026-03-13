@@ -22,7 +22,11 @@
 ---
 
 ## Demo
-CRUD API Demo
+LOGIN
+![LOGIN API Demo](Asset/auth.gif)
+TOKEN
+![TOKEN API Demo](Asset/token.gif)
+CRUD
 ![CRUD API Demo](Asset/crud.gif)
 
 ---
