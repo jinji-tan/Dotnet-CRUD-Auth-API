@@ -5,7 +5,7 @@ namespace DotnetCrudAuthApi.Repostories
 {
     public interface IPeopleRepository
     {
-        Task<IEnumerable<People>> GetAll<T>();
+        Task<IEnumerable<People>> GetAll();
         Task<People?> GetById(int id);
         Task<bool> Add(PeopleDto peopleDto);
         Task<bool> Update(int id, PeopleDto peopleDto);

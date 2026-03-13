@@ -14,7 +14,7 @@ namespace DotnetCrudAuthApi.Repostories
             this.dapper = dapper;
         }
 
-        public async Task<IEnumerable<People>> GetAll<T>()
+        public async Task<IEnumerable<People>> GetAll()
         {
             string sql = @"SELECT * FROM CrudSchema.People";
 
