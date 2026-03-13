@@ -20,7 +20,7 @@ namespace DotnetCrudAuthApi.Controllers
             this.auth = auth;
         }
 
-        [HttpGet]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register(UserDto userDto)
         {
             if (await auth.UserExists(userDto.Email))
@@ -34,7 +34,7 @@ namespace DotnetCrudAuthApi.Controllers
             return Ok("Successfully Registered");
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login(UserDto userDto)
         {
             var user = await auth.GetUserByEmail(userDto.Email);
